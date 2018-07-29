@@ -1,0 +1,22 @@
+{
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "apples",
+          "submenu": [
+            {
+              "label": "Start",
+              "command": "apples:start"
+           },
+           {
+             "label" :"Stop",
+              "command" : "apples:stop"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Apples",
+  "main": "./lib/apples",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "apples:start"
+  },
+  "repository": "https://github.com/atom/apples",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
+}
